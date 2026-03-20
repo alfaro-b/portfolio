@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Bittori Alfaro</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav">
+            <div class="logo">Bittori Alfaro<span>.</span></div>
+
+            <nav class="nav-links">
+                <a href="#about">À propos</a>
+                <a href="#projects">Projets</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero section">
+            <div class="container">
+                <div class="hero-inner">
+                    <span class="badge">Développeuse web junior — recherche alternance CDA</span>
+
+                    <h1>
+                        Je développe des applications web en partant de besoins concrets.
+                    </h1>
+
+                    <p>
+                        En reconversion vers le développement web, je souhaite poursuivre
+                        ma progression en alternance en conception et développement
+                        d’applications sur des projets réels.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container about">
+                <h2 class="section-title">À propos</h2>
+
+                <p>
+                    Après plusieurs années d’expérience dans la gestion et la relation usagers,
+                    j’ai choisi de me reconvertir dans le développement web afin de travailler
+                    sur des problématiques plus techniques et concrètes.
+                </p>
+
+                <p>
+                    Mon parcours m’a permis de développer une forte capacité à analyser les
+                    besoins utilisateurs, à structurer l’information et à travailler avec rigueur.
+                    Aujourd’hui, j’applique ces compétences à la conception d’applications web,
+                    avec une attention particulière portée à la clarté du code et à l’expérience utilisateur.
+                </p>
+
+                <p>
+                    Lors de ma formation et de mon stage, j’ai développé une application complète
+                    de gestion de commandes de photos de classe, incluant une API, une base de données
+                    et des interfaces adaptées aux utilisateurs.
+                </p>
+
+                <p>
+                    Je recherche aujourd’hui une alternance en conception et développement
+                    d’applications afin de consolider mes compétences techniques et évoluer
+                    dans un environnement professionnel.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projets</h2>
+
+                <article class="card featured-project fade-in">
+                    <span class="project-tag">Projet principal</span>
+                    <h3 class="project-title">Manaketak</h3>
+
+                    <p class="project-description">
+                        Manaketak est une application web de gestion de commandes de photos scolaires.
+                        J’ai conçu et développé ce projet en autonomie, de l’analyse du besoin à la mise
+                        en production, avec une architecture full-stack et un déploiement sur Scalingo,
+                        Vercel et OVH.
+                    </p>
+
+                    <div class="project-block">
+                        <h4>Contexte</h4>
+                        <p>
+                            L’objectif était de simplifier la gestion des commandes de photos de classe,
+                            avec plusieurs types d’utilisateurs (parents, écoles, administrateur)
+                            et une logique métier spécifique.
+                        </p>
+                    </div>
+
+                    <div class="project-block">
+                        <h4>Réalisation</h4>
+                        <ul class="project-list">
+                            <li>conception de l’architecture et de la base de données</li>
+                            <li>développement d’une API REST sécurisée (Symfony, API Platform)</li>
+                            <li>gestion des rôles utilisateurs</li>
+                            <li>développement du frontend (Next.js)</li>
+                            <li>gestion des commandes</li>
+                            <li>génération de PDF, exports Excel et e-mails</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-block">
+                        <h4>Déploiement</h4>
+                        <ul class="project-list">
+                            <li>backend déployé sur Scalingo</li>
+                            <li>frontend déployé sur Vercel</li>
+                            <li>stockage des fichiers via OVH Object Storage</li>
+                            <li>configuration des variables d’environnement</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-block">
+                        <h4>Architecture</h4>
+                        <p>
+                            L’application repose sur une architecture frontend / backend,
+                            avec un stockage externe pour les fichiers.
+                        </p>
+
+                        <img src="assets/images/architecture-manaketak.png" alt="Schéma architecture Manaketak"
+                            class="project-image" />
+
+                        <p class="project-note">
+                            Le frontend communique avec l’API backend qui gère les données et le stockage.
+                        </p>
+                    </div>
+
+                    <div class="project-block">
+                        <h4>Démo de l'application</h4>
+
+                        <p class="project-note">
+                            Démonstration des principales fonctionnalités.
+                        </p>
+
+                        <video controls class="project-video">
+                            <source src="assets/videos/admin-demo.mp4" type="video/mp4" />
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/alfaro-b/manaketak-showcase" target="_blank"
+                            rel="noopener noreferrer" class="small-link">
+                            Voir le code (GitHub)
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card secondary-project fade-in">
+                    <span class="project-tag">Test technique</span>
+                    <h3 class="project-title">Test technique Carambar</h3>
+
+                    <p class="project-description">
+                        Réalisation d’un test technique avec contraintes réelles,
+                        centré sur la structuration du code et le respect des consignes.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/alfaro-b" target="_blank" rel="noopener noreferrer"
+                            class="small-link">
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <button id="topBtn" aria-label="Retour en haut">↑</button>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 - Bittori Alfaro</p>
+
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/bittori-alfaro" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/alfaro-b" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="mailto:bittori.alfaro@yahoo.fr">
+                    Email
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
