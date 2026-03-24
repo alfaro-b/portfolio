@@ -25,7 +25,7 @@
         <section class="hero section">
             <div class="container">
                 <div class="hero-inner">
-                    <span class="badge">Développeuse web junior — recherche alternance CDA</span>
+                    <span class="badge">Développeuse web junior</span>
 
                     <h1>
                         Je développe des applications web en partant de besoins concrets.
@@ -136,36 +136,107 @@
                         <h4>Démo de l'application</h4>
 
                         <p class="project-note">
-                            Démonstration des principales fonctionnalités.
+                            Deux démonstrations courtes montrent les usages côté administrateur et côté parent.
                         </p>
 
-                        <video controls class="project-video">
-                            <source src="assets/videos/admin-demo.mp4" type="video/mp4" />
-                            Votre navigateur ne supporte pas la vidéo.
-                        </video>
-                    </div>
+                        <div class="demo-group">
 
+                            <div class="demo-item">
+                                <p class="demo-title">Interface administrateur</p>
+                                <p class="demo-desc">
+                                    Gestion des écoles, des classes et des commandes depuis l’espace admin.
+                                </p>
+
+                                <video controls class="project-video">
+                                    <source src="assets/videos/admin-demo.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+
+                            <div class="demo-item">
+                                <p class="demo-title">Parcours parent</p>
+                                <p class="demo-desc">
+                                    Consultation des photos et passage d’une commande en quelques étapes.
+                                </p>
+
+                                <video controls class="project-video project-video-mobile">
+                                    <source src="assets/videos/parent-demo.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
                     <div class="project-links">
                         <a href="https://github.com/alfaro-b/manaketak-showcase" target="_blank"
                             rel="noopener noreferrer" class="small-link">
-                            Voir le code (GitHub)
+                            Voir le projet sur GitHub
                         </a>
                     </div>
                 </article>
 
                 <article class="card secondary-project fade-in">
                     <span class="project-tag">Test technique</span>
-                    <h3 class="project-title">Test technique Carambar</h3>
+                    <h3 class="project-title">Application de blagues – Carambar</h3>
 
                     <p class="project-description">
-                        Réalisation d’un test technique avec contraintes réelles,
-                        centré sur la structuration du code et le respect des consignes.
+                        Réalisation d’un test technique consistant à développer une mini application web
+                        de blagues, avec une API et une interface utilisateur simple permettant d’afficher
+                        une blague aléatoire.
                     </p>
 
+                    <div class="project-block">
+                        <h4>Contexte</h4>
+                        <p>
+                            Ce projet a été réalisé dans le cadre d’un test de sélection.
+                            L’objectif était de répondre à un cahier des charges imposé,
+                            incluant la création d’une API versionnée et d’une interface frontend.
+                        </p>
+                    </div>
+
+                    <div class="project-block">
+                        <h4>Réalisation</h4>
+                        <ul class="project-list">
+                            <li>développement d’une API REST (Node.js, Express, Sequelize, SQLite)</li>
+                            <li>création de plusieurs endpoints (liste, détail, ajout, aléatoire)</li>
+                            <li>mise en place d’une interface simple avec un bouton affichant une blague</li>
+                            <li>documentation de l’API avec Swagger</li>
+                            <li>déploiement du backend (Render) et du frontend (GitHub Pages)</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-block">
+                        <h4>Ce que ce projet démontre</h4>
+                        <ul class="project-list">
+                            <li>capacité à comprendre et appliquer un cahier des charges</li>
+                            <li>mise en place d’une API structurée</li>
+                            <li>connexion frontend / backend</li>
+                            <li>organisation du code et des livrables</li>
+                            <li>autonomie dans un contexte contraint</li>
+                        </ul>
+                    </div>
+                    <p class="project-note">
+                        En raison de l’hébergement gratuit, la base peut être réinitialisée.
+                        Vous pouvez tester l’API en ajoutant une blague via Swagger, par exemple :
+                    </p>
+
+                    <ul class="project-list">
+                        <li>“Que dit un oignon quand il se cogne ? Aïe”</li>
+                        <li>“Quel est l’animal le plus heureux ? Le hibou, parce que sa femme est chouette.”</li>
+                    </ul>
                     <div class="project-links">
-                        <a href="https://github.com/alfaro-b" target="_blank" rel="noopener noreferrer"
-                            class="small-link">
-                            Voir sur GitHub
+                        <a href="https://github.com/alfaro-b/carambar_front" target="_blank" class="small-link">
+                            Code de l’interface (GitHub)
+                        </a>
+
+                        <a href="https://github.com/alfaro-b/carambar_back" target="_blank" class="small-link">
+                            Code de l’API (GitHub)
+                        </a>
+
+                        <a href="https://alfaro-b.github.io/carambar_front/" target="_blank" class="small-link">
+                            Voir la démo
+                        </a>
+
+                        <a href="https://carambar-back-c4qi.onrender.com/api-docs" target="_blank" class="small-link">
+                            API (Swagger)
                         </a>
                     </div>
                 </article>
