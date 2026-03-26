@@ -80,7 +80,7 @@ section {
 }
 
 .section {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .section-title {
@@ -149,14 +149,16 @@ section {
 }
 
 /* HERO */
-.hero {
-  padding: 4.5rem 0 3rem;
-}
-
 .hero-inner {
-  max-width: 760px;
+  
   margin: 0 auto;
   text-align: center;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .badge {
@@ -173,7 +175,7 @@ section {
   font-size: 0.92rem;
 }
 
-.hero h1 {
+.hero-inner h1 {
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
@@ -182,15 +184,34 @@ section {
   line-height: 1.02;
   letter-spacing: -0.02em;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-.hero p {
+.hero-inner p {
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
   color: var(--muted);
   font-size: 1rem;
   opacity: 0.9;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text);
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.7rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  border: 1px solid var(--border);
 }
 
 /* ABOUT */
@@ -397,6 +418,7 @@ section {
   color: var(--muted);
   font-size: 0.95rem;
   margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 .secondary-project .project-note {
   margin-bottom: 0.75rem;
@@ -569,7 +591,7 @@ section {
   }
 
   .section {
-    padding: 4.75rem 0;
+    padding: 2.75rem 0;
   }
 
   .section-title {
@@ -586,41 +608,16 @@ section {
     padding: 0;
   }
 
-  .hero {
+  .hero-inner {
     padding: 5.5rem 0 3.5rem;
   }
 
-  .hero h1 {
+  .hero-inner h1 {
     font-size: 2.5rem;
   }
 
-  .hero p {
+  .hero-inner p {
     font-size: 1.06rem;
-  }
-
-  .hero-actions {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 1.5rem;
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    padding: 0.7rem 1.2rem;
-    border-radius: 999px;
-    font-weight: 600;
-    border: 1px solid var(--border);
-  }
-
-  .btn-primary {
-    background: var(--accent);
-    color: white;
-  }
-
-  .btn-secondary {
-    background: transparent;
-    color: var(--text);
   }
 
   .about-layout {
@@ -688,18 +685,18 @@ section {
 /* DESKTOP */
 @media (min-width: 1024px) {
   .section {
-    padding: 5.5rem 0;
+    padding: 3.5rem 0;
   }
 
-  .hero {
+  .hero-inner {
     padding: 6.5rem 0 4rem;
   }
 
-  .hero h1 {
+  .hero-inner h1 {
     font-size: 3rem;
   }
 
-  .hero p {
+  .hero-inner p {
     max-width: 620px;
     font-size: 1.08rem;
   }
