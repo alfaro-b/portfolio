@@ -597,6 +597,32 @@ section {
   .hero p {
     font-size: 1.06rem;
   }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.7rem 1.2rem;
+    border-radius: 999px;
+    font-weight: 600;
+    border: 1px solid var(--border);
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: white;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--text);
+  }
+
   .about-layout {
     flex-direction: row;
     align-items: flex-start;
