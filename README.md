@@ -6,6 +6,8 @@ Portfolio de développeuse web junior présentant mes projets et compétences en
 
 Mettre en valeur mes réalisations et mon approche du développement full-stack, de la conception à la mise en production.
 
+---
+
 ## Projet principal
 
 ### Manaketak
@@ -16,7 +18,9 @@ Application de gestion de commandes de photos scolaires.
 - Frontend Next.js
 - Déploiement sur Scalingo, Vercel et OVH
 
-## Autre projet
+---
+
+## Autres projets
 
 ### Application de blagues – Carambar
 
@@ -26,10 +30,24 @@ Test technique réalisé avec contraintes imposées :
 - Interface frontend simple
 - Documentation avec Swagger
 
+### Mus Score App
+
+Application web progressive (PWA) de comptage de score pour le jeu de cartes Mus, conçue pour un usage simple sur smartphone.
+
+- Interface mobile-first
+- Sauvegarde locale des données (localStorage)
+- Fonctionnement hors ligne
+- Installation sur appareil mobile (PWA)
+- Déploiement via GitHub Pages
+
+---
+
 ## À propos
 
 Je suis actuellement en reconversion vers le développement web et à la recherche d’une alternance en conception et développement d’applications.
 
+---
+
 ## Statut
 
-Portfolio évolutif, régulièrement mis à jour.
+🚧 Portfolio évolutif, régulièrement mis à jour.

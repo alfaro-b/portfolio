@@ -698,11 +698,7 @@ section {
     gap: 1.5rem;
   }
 
-  .mus-icon {
-    flex: 0 0 120px;
-    max-width: 120px;
-  }
-
+  .mus-icon,
   .mus-mobile {
     flex: 0 0 260px;
     max-width: 260px;
