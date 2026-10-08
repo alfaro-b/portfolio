@@ -59,3 +59,11 @@ topBtn.addEventListener("click", () => {
   });
 
 });
+
+// ANNÉE AUTOMATIQUE DU FOOTER
+
+// Récupère l'élément HTML destiné à afficher l'année
+const currentYear = document.getElementById("currentYear");
+
+// Insère automatiquement l'année actuelle
+currentYear.textContent = new Date().getFullYear();
