@@ -666,7 +666,7 @@ section {
   }
 
   .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .project-title {
@@ -736,10 +736,6 @@ section {
 
   .card {
     padding: 2rem;
-  }
-
-  .skills-grid {
-    grid-template-columns: repeat(4, 1fr);
   }
 
   .featured-project {
