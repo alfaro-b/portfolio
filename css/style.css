@@ -57,16 +57,12 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   background:
-    radial-gradient(
-      circle at top left,
+    radial-gradient(circle at top left,
       rgba(138, 162, 255, 0.16),
-      transparent 28%
-    ),
-    radial-gradient(
-      circle at top right,
+      transparent 28%),
+    radial-gradient(circle at top right,
       rgba(138, 162, 255, 0.08),
-      transparent 22%
-    ),
+      transparent 22%),
     linear-gradient(180deg, #0a1020 0%, #0b1020 100%);
 }
 
@@ -222,6 +218,7 @@ section {
   color: var(--muted);
   margin-bottom: 1rem;
 }
+
 .about-layout {
   display: flex;
   flex-direction: column;
@@ -245,11 +242,9 @@ section {
 
 /* CARD */
 .card {
-  background: linear-gradient(
-    180deg,
-    rgba(24, 35, 71, 0.8),
-    rgba(18, 25, 51, 0.88)
-  );
+  background: linear-gradient(180deg,
+      rgba(24, 35, 71, 0.8),
+      rgba(18, 25, 51, 0.88));
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.35rem;
@@ -258,6 +253,7 @@ section {
     transform 0.22s ease,
     border-color 0.22s ease,
     box-shadow 0.22s ease;
+  margin-bottom: 1.5rem;
 }
 
 .card:hover {
@@ -315,24 +311,29 @@ section {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
+/* BOUTON AFFICHER / MASQUER LES PROJETS */
+
+.toggle-details {
+  padding: 0.7rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.toggle-details:hover {
+  background: rgba(138, 162, 255, 0.1);
+}
+
+.project-details[hidden] {
+  display: none;
+}
+
 /* PROJECTS */
-.featured-project {
-  margin-bottom: 1.5rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.featured-project::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 4px;
-  background: linear-gradient(180deg, var(--accent), transparent);
-}
-
-.secondary-project {
-  width: 100%;
-}
 
 .project-tag {
   display: inline-block;
@@ -419,12 +420,6 @@ section {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
-.secondary-project .project-note {
-  margin-bottom: 0.75rem;
-}
-.secondary-project .project-block {
-  margin-bottom: 1.4rem;
-}
 
 .demo-group {
   display: flex;
@@ -439,7 +434,7 @@ section {
   padding-top: 0.25rem;
 }
 
-.demo-item + .demo-item {
+.demo-item+.demo-item {
   border-top: 1px solid var(--border);
   padding-top: 1.5rem;
 }
@@ -718,7 +713,4 @@ section {
     padding: 2rem;
   }
 
-  .featured-project {
-    margin-bottom: 1.5rem;
-  }
 }

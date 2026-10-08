@@ -1,4 +1,37 @@
 
+// AFFICHER / MASQUER LES DÉTAILS DES PROJETS
+
+// Récupère tous les boutons Voir les détails
+const detailButtons = document.querySelectorAll(".toggle-details");
+
+// Parcourt chaque bouton
+detailButtons.forEach((button) => {
+
+  // Détecte le clic sur le bouton
+  button.addEventListener("click", () => {
+
+    // Récupère le bloc de détails associé au bouton
+    const details = document.getElementById(
+      button.getAttribute("aria-controls")
+    );
+
+    // Inverse son affichage
+    details.hidden = !details.hidden;
+
+    // Met à jour le texte du bouton
+    if (details.hidden) {
+      button.textContent = "Voir les détails";
+    } else {
+      button.textContent = "Masquer les détails";
+    }
+
+    // Indique si le contenu est ouvert ou fermé
+    button.setAttribute("aria-expanded", String(!details.hidden));
+
+  });
+});
+
+
 // BOUTON RETOUR EN HAUT
 
 // Récupère le bouton dans le HTML

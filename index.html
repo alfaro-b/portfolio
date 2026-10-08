@@ -62,7 +62,8 @@
 
                     <p>
                         J'aime concevoir et développer des applications web qui répondent à des besoins concrets.
-                        Après une première expérience en développement full-stack, je continue à approfondir mes compétences 
+                        Après une première expérience en développement full-stack, je continue à approfondir mes
+                        compétences
                         et souhaite rejoindre une équipe de développement pour poursuivre mon parcours en alternance.
                     </p>
                 </div>
@@ -80,26 +81,29 @@
                     <h2 class="section-title">À propos</h2>
 
                     <p>
-                        Après plusieurs années dans la gestion et la relation avec les usagers, 
-                        j'ai choisi de me tourner vers le développement informatique, un domaine qui me plaît 
+                        Après plusieurs années dans la gestion et la relation avec les usagers,
+                        j'ai choisi de me tourner vers le développement informatique, un domaine qui me plaît
                         pour son côté à la fois technique et créatif.
                     </p>
 
                     <p>
-                        Lors de ma première formation et de mon stage, j'ai notamment conçu et développé une application web complète, 
-                        de l'analyse des besoins jusqu'à sa mise en production. 
-                        Cette expérience m'a permis de mettre en pratique mes connaissances et de découvrir les différentes étapes 
+                        Lors de ma première formation et de mon stage, j'ai notamment conçu et développé une application
+                        web complète,
+                        de l'analyse des besoins jusqu'à sa mise en production.
+                        Cette expérience m'a permis de mettre en pratique mes connaissances et de découvrir les
+                        différentes étapes
                         d'un véritable projet.
                     </p>
 
                     <p>
-                        Aujourd'hui, je continue à développer mes compétences, notamment en Java et Python, 
+                        Aujourd'hui, je continue à développer mes compétences, notamment en Java et Python,
                         tout en m'appuyant sur mon expérience en développement web.
                     </p>
 
                     <p>
-                        Je recherche une alternance à partir de janvier 2027, dans le cadre d'une formation 
-                        de Concepteur Développeur d'Applications, afin de poursuivre mon apprentissage au sein d'une équipe de développement.
+                        Je recherche une alternance à partir de janvier 2027, dans le cadre d'une formation
+                        de Concepteur Développeur d'Applications, afin de poursuivre mon apprentissage au sein d'une
+                        équipe de développement.
                     </p>
                 </div>
 
@@ -138,7 +142,7 @@
                     </div>
 
                     <div class="skills-category">
-                        <h3>Base de données</h3>
+                        <h3>Bases de données</h3>
                         <ul>
                             <li>MySQL / MariaDB</li>
                             <li>SQLite</li>
@@ -159,8 +163,8 @@
                         <h3>Outils</h3>
                         <ul>
                             <li>Git / GitHub</li>
-                            <li>Postman /Swagger</li>
-                            <li>Vs Code / Eclipse / PyCharm</li>
+                            <li>Postman / Swagger</li>
+                            <li>VS Code / Eclipse / PyCharm</li>
                         </ul>
                     </div>
 
@@ -173,259 +177,286 @@
             <div class="container">
                 <h2 class="section-title">Projets</h2>
 
-                <article class="card featured-project">
+                <article class="card">
                     <span class="project-tag">Projet principal</span>
                     <h3 class="project-title">Manaketak</h3>
 
                     <p class="project-description">
-                        Manaketak est une application web de gestion de commandes de photos scolaires, 
+                        Manaketak est une application web de gestion de commandes de photos scolaires,
                         développée pour répondre aux besoins d'un photographe professionnel.
                         J’ai conçu et développé cette application en autonomie, de l’analyse des besoins jusqu'à sa mise
-                        en production. Elle est aujourd'hui utilisée dans le cadre de véritables campagnes de photos scolaires.
+                        en production. Elle est aujourd'hui utilisée dans le cadre de véritables campagnes de photos
+                        scolaires.
                     </p>
 
-                    <div class="project-block">
-                        <h4>Contexte</h4>
-                        <p>
-                            L’objectif était de simplifier la gestion des commandes de photos scolaires,
-                            depuis la consultation des photos par les parents jusqu'au suivi des commandes
-                            par les écoles et le photographe.
-                            L'application propose des fonctionnalités adaptées aux différents utilisateurs:
-                            parents, écoles et administrateur.
-                        </p>
-                    </div>
+                    <button class="toggle-details" type="button" aria-expanded="false"
+                        aria-controls="details-manaketak">
+                        Voir les détails
+                    </button>
 
-                    <div class="project-block">
-                        <h4>Réalisation</h4>
-                        <ul class="project-list">
-                            <li>conception de l’architecture et de la base de données</li>
-                            <li>développement d’une API REST sécurisée (Symfony, API Platform)</li>
-                            <li>gestion des rôles utilisateurs</li>
-                            <li>développement du frontend (Next.js)</li>
-                            <li>gestion des commandes</li>
-                            <li>génération de PDF, exports Excel et e-mails</li>
-                        </ul>
-                    </div>
+                    <div id="details-manaketak" class="project-details" hidden>
 
-                    <div class="project-block">
-                        <h4>Déploiement</h4>
-                        <ul class="project-list">
-                            <li>backend déployé sur Scalingo</li>
-                            <li>frontend déployé sur Vercel</li>
-                            <li>stockage des fichiers via OVH Object Storage</li>
-                            <li>configuration des variables d’environnement</li>
-                        </ul>
-                    </div>
+                        <div class="project-block">
+                            <h4>Contexte</h4>
+                            <p>
+                                L’objectif était de simplifier la gestion des commandes de photos scolaires,
+                                depuis la consultation des photos par les parents jusqu'au suivi des commandes
+                                par les écoles et le photographe.
+                                L'application propose des fonctionnalités adaptées aux différents utilisateurs:
+                                parents, écoles et administrateur.
+                            </p>
+                        </div>
 
-                    <div class="project-block">
-                        <h4>Architecture</h4>
-                        <p>
-                            L’application repose sur une architecture frontend / backend,
-                            avec un stockage externe pour les fichiers.
-                        </p>
+                        <div class="project-block">
+                            <h4>Réalisation</h4>
+                            <ul class="project-list">
+                                <li>conception de l’architecture et de la base de données</li>
+                                <li>développement d’une API REST sécurisée (Symfony, API Platform)</li>
+                                <li>gestion des rôles utilisateurs</li>
+                                <li>développement du frontend (Next.js)</li>
+                                <li>gestion des commandes</li>
+                                <li>génération de PDF, exports Excel et e-mails</li>
+                            </ul>
+                        </div>
 
-                        <img src="assets/images/architecture-manaketak.png" alt="Schéma architecture Manaketak"
-                            class="project-image" />
+                        <div class="project-block">
+                            <h4>Déploiement</h4>
+                            <ul class="project-list">
+                                <li>backend déployé sur Scalingo</li>
+                                <li>frontend déployé sur Vercel</li>
+                                <li>stockage des fichiers via OVH Object Storage</li>
+                                <li>configuration des variables d’environnement</li>
+                            </ul>
+                        </div>
 
-                    </div>
+                        <div class="project-block">
+                            <h4>Architecture</h4>
+                            <p>
+                                L’application repose sur une architecture frontend / backend,
+                                avec un stockage externe pour les fichiers.
+                            </p>
 
-                    <div class="project-block">
-                        <h4>Démo de l'application</h4>
-
-                        <p class="project-note">
-                            Deux démonstrations courtes montrent les usages côté administrateur et côté parent.
-                        </p>
-
-                        <div class="demo-group">
-
-                            <div class="demo-item">
-                                <p class="demo-title">Interface administrateur</p>
-                                <p class="demo-desc">
-                                    Démonstration de la gestion des écoles, des classes et des commandes 
-                                    depuis l’interface administrateur.
-                                    Vidéo sans son.
-                                </p>
-
-                                <video controls class="project-video">
-                                    <source src="assets/videos/admin-demo.mp4" type="video/mp4" />
-                                </video>
-                            </div>
-
-                            <div class="demo-item">
-                                <p class="demo-title">Parcours parent</p>
-                                <p class="demo-desc">
-                                    Démonstration du parcours parent : accès aux photos scolaires, 
-                                    consultation des photos, choix des quantités et formats 
-                                    et passage d’une commande.
-                                    Vidéo sans son.
-                                </p>
-
-                                <video controls class="project-video project-video-mobile">
-                                    <source src="assets/videos/parent-demo.mp4" type="video/mp4" />
-                                </video>
-                            </div>
+                            <img src="assets/images/architecture-manaketak.png" alt="Schéma architecture Manaketak"
+                                class="project-image" />
 
                         </div>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/alfaro-b/manaketak-showcase" target="_blank"
-                            rel="noopener noreferrer" class="small-link">
-                            Voir le projet sur GitHub
-                        </a>
+
+                        <div class="project-block">
+                            <h4>Démo de l'application</h4>
+
+                            <p class="project-note">
+                                Deux démonstrations courtes montrent les usages côté administrateur et côté parent.
+                            </p>
+
+                            <div class="demo-group">
+
+                                <div class="demo-item">
+                                    <p class="demo-title">Interface administrateur</p>
+                                    <p class="demo-desc">
+                                        Démonstration de la gestion des écoles, des classes et des commandes
+                                        depuis l’interface administrateur.
+                                        Vidéo sans son.
+                                    </p>
+
+                                    <video controls class="project-video">
+                                        <source src="assets/videos/admin-demo.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+
+                                <div class="demo-item">
+                                    <p class="demo-title">Parcours parent</p>
+                                    <p class="demo-desc">
+                                        Démonstration du parcours parent : accès aux photos scolaires,
+                                        consultation des photos, choix des quantités et formats
+                                        et passage d’une commande.
+                                        Vidéo sans son.
+                                    </p>
+
+                                    <video controls class="project-video project-video-mobile">
+                                        <source src="assets/videos/parent-demo.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alfaro-b/manaketak-showcase" target="_blank"
+                                rel="noopener noreferrer" class="small-link">
+                                Voir le projet sur GitHub
+                            </a>
+                        </div>
                     </div>
                 </article>
 
-                <article class="card secondary-project">
+                <article class="card">
                     <span class="project-tag">Test technique</span>
                     <h3 class="project-title">Application de blagues – Carambar</h3>
 
                     <p class="project-description">
-                        Application web permettant d'afficher des blagues Carambar aléatoires, développée avec une API REST 
+                        Application web permettant d'afficher des blagues Carambar aléatoires, développée avec une API
+                        REST
                         et une interface utilisateur simple.
                     </p>
 
-                    <div class="project-block">
-                        <h4>Contexte</h4>
-                        <p>
-                            Ce projet a été réalisé dans le cadre d’un test technique de sélection, 
-                            à partir d'un cahier des charges imposé.
-                            Il comprenait le développement d’une API REST versionnée, d’une interface frontend et leur déploiement.
-                        </p>
-                    </div>
+                    <button class="toggle-details" type="button" aria-expanded="false" aria-controls="details-carambar">
+                        Voir les détails
+                    </button>
 
-                    <div class="project-block">
-                        <h4>Réalisation</h4>
-                        <ul class="project-list">
-                            <li>développement d’une API REST (Node.js, Express, Sequelize, SQLite)</li>
-                            <li>création des endpoints : liste, détail, ajout et blague aléatoire</li>
-                            <li>développement d’une interface permettant d'afficher une blague aléatoire</li>
-                            <li>documentation de l’API avec Swagger</li>
-                            <li>déploiement du backend sur Render et du frontend sur GitHub Pages</li>
-                        </ul>
-                    </div>
-
-                    <div class="project-block">
-                        <h4>Interface</h4>
-                        <p class="project-note">
-                            Version desktop et mobile
-                        </p>
-                        <div class="carambar-media">
-                            <img src="assets/images/carambar-desktop.png" alt="Interface desktop Carambar"
-                                class="carambar-desktop" />
-
-                            <img src="assets/images/carambar-mobile.png" alt="Interface mobile Carambar"
-                                class="carambar-mobile" />
+                    <div id="details-carambar" class="project-details" hidden>
+                        <div class="project-block">
+                            <h4>Contexte</h4>
+                            <p>
+                                Ce projet a été réalisé dans le cadre d’un test technique de sélection,
+                                à partir d'un cahier des charges imposé.
+                                Il comprenait le développement d’une API REST versionnée, d’une interface frontend et
+                                leur
+                                déploiement.
+                            </p>
                         </div>
-                    </div>
 
-                    <div class="project-block">
-                        <h4>Ce que ce projet m'a permis de travailler</h4>
-                        <ul class="project-list">
-                            <li>analyse et respect d'un cahier des charges</li>
-                            <li>développement et connexion d'une API REST à une interface frontend</li>
-                            <li>organisation et réalisation d'un projet dans un délai contraint</li>
-                        </ul>
-                    </div>
+                        <div class="project-block">
+                            <h4>Réalisation</h4>
+                            <ul class="project-list">
+                                <li>développement d’une API REST (Node.js, Express, Sequelize, SQLite)</li>
+                                <li>création des endpoints : liste, détail, ajout et blague aléatoire</li>
+                                <li>développement d’une interface permettant d'afficher une blague aléatoire</li>
+                                <li>documentation de l’API avec Swagger</li>
+                                <li>déploiement du backend sur Render et du frontend sur GitHub Pages</li>
+                            </ul>
+                        </div>
 
-                    <div class="project-block">
-                        <h4>Tester l’API</h4>
-                        <p class="project-note">
-                            L'API peut être testée depuis sa documentation Swagger, 
-                            qui permet de consulter les différents endpoints 
-                            et d'ajouter de nouvelles blagues.
-                        </p>
-                        <p class="project-note">
-                            L'application étant hébergée sur un service gratuit, 
-                            la base de données peut être réinitialisée.
-                        </p>
-                    </div>
+                        <div class="project-block">
+                            <h4>Interface</h4>
+                            <p class="project-note">
+                                Version desktop et mobile
+                            </p>
+                            <div class="carambar-media">
+                                <img src="assets/images/carambar-desktop.png" alt="Interface desktop Carambar"
+                                    class="carambar-desktop" />
 
-                    <div class="project-links">
-                        <a href="https://github.com/alfaro-b/carambar_front" target="_blank" rel="noopener noreferrer"
-                            class="small-link">
-                            Code de l’interface (GitHub)
-                        </a>
+                                <img src="assets/images/carambar-mobile.png" alt="Interface mobile Carambar"
+                                    class="carambar-mobile" />
+                            </div>
+                        </div>
 
-                        <a href="https://github.com/alfaro-b/carambar_back" target="_blank" rel="noopener noreferrer"
-                            class="small-link">
-                            Code de l’API (GitHub)
-                        </a>
+                        <div class="project-block">
+                            <h4>Ce que ce projet m'a permis de travailler</h4>
+                            <ul class="project-list">
+                                <li>analyse et respect d'un cahier des charges</li>
+                                <li>développement et connexion d'une API REST à une interface frontend</li>
+                                <li>organisation et réalisation d'un projet dans un délai contraint</li>
+                            </ul>
+                        </div>
 
-                        <a href="https://alfaro-b.github.io/carambar_front/" target="_blank" rel="noopener noreferrer"
-                            class="small-link">
-                            Voir la démo
-                        </a>
+                        <div class="project-block">
+                            <h4>Tester l’API</h4>
+                            <p class="project-note">
+                                L'API peut être testée depuis sa documentation Swagger,
+                                qui permet de consulter les différents endpoints
+                                et d'ajouter de nouvelles blagues.
+                            </p>
+                            <p class="project-note">
+                                L'application étant hébergée sur un service gratuit,
+                                la base de données peut être réinitialisée.
+                            </p>
+                        </div>
 
-                        <a href="https://carambar-back-c4qi.onrender.com/api-docs" target="_blank"
-                            rel="noopener noreferrer" class="small-link">
-                            Documentation API (Swagger)
-                        </a>
+                        <div class="project-links">
+                            <a href="https://github.com/alfaro-b/carambar_front" target="_blank"
+                                rel="noopener noreferrer" class="small-link">
+                                Code de l’interface (GitHub)
+                            </a>
+
+                            <a href="https://github.com/alfaro-b/carambar_back" target="_blank"
+                                rel="noopener noreferrer" class="small-link">
+                                Code de l’API (GitHub)
+                            </a>
+
+                            <a href="https://alfaro-b.github.io/carambar_front/" target="_blank"
+                                rel="noopener noreferrer" class="small-link">
+                                Voir la démo
+                            </a>
+
+                            <a href="https://carambar-back-c4qi.onrender.com/api-docs" target="_blank"
+                                rel="noopener noreferrer" class="small-link">
+                                Documentation API (Swagger)
+                            </a>
+                        </div>
                     </div>
                 </article>
 
-                <article class="card secondary-project">
+                <article class="card">
                     <span class="project-tag">Projet personnel</span>
                     <h3 class="project-title">Mus Score App</h3>
 
                     <p class="project-description">
-                        Application web progressive (PWA) permettant de compter les points lors d'une partie de Mus, 
-                        un jeu de cartes traditionnel basque, conçue pour une utilisation simple et rapide sur smartphone.
+                        Application web progressive (PWA) permettant de compter les points lors d'une partie de Mus,
+                        un jeu de cartes traditionnel basque, conçue pour une utilisation simple et rapide sur
+                        smartphone.
                     </p>
 
-                    <div class="project-block">
-                        <h4>Contexte</h4>
-                        <p>
-                            Ce projet est né d'un besoin personnel : pouvoir compter facilement les points pendant une partie de Mus, 
-                            sans avoir besoin de matériel de comptage et en gardant le score accessible sur son téléphone.
-                        </p>
-                    </div>
+                    <button class="toggle-details" type="button" aria-expanded="false" aria-controls="details-mus">
+                        Voir les détails
+                    </button>
 
-                    <div class="project-block">
-                        <h4>Fonctionnalités</h4>
-                        <ul class="project-list">
-                            <li>comptage des ttantto et hamarreko</li>
-                            <li>conversion automatique des points</li>
-                            <li>détection de la victoire et animation visuelle</li>
-                            <li>personnalisation des noms des équipes </li>
-                            <li>sauvegarde automatique de la partie</li>
-                            <li>interface bilingue (basque / français)</li>
-                        </ul>
-                    </div>
-
-                    <div class="project-block">
-                        <h4>Interface</h4>
-                        <p class="project-note">
-                            Icône de l'application et capture de l'interface mobile
-                        </p>
-                        <div class="mus-media">
-                            <img src="assets/images/icon-mus.png" alt="Logo de Mus Score App"
-                                class="mus-icon" />
-
-                            <img src="assets/images/screenshot-mus.png" alt="Capture de l'application Mus Score App"
-                                class="mus-mobile" />
+                    <div id="details-mus" class="project-details" hidden>
+                        <div class="project-block">
+                            <h4>Contexte</h4>
+                            <p>
+                                Ce projet est né d'un besoin personnel : pouvoir compter facilement les points pendant
+                                une
+                                partie de Mus,
+                                sans avoir besoin de matériel de comptage et en gardant le score accessible sur son
+                                téléphone.
+                            </p>
                         </div>
-                    </div>
 
-                    <div class="project-block">
-                        <h4>Ce que ce projet m’a permis de travailler</h4>
-                        <ul class="project-list">
-                            <li>développement d’une Progressive Web App (PWA)</li>
-                            <li>conception d'une interface mobile-first et responsive</li>
-                            <li>sauvegarde des données avec localStorage</li>
-                            <li>déploiement automatisé sur GitHub Pages</li>
-                        </ul>
-                    </div>
+                        <div class="project-block">
+                            <h4>Fonctionnalités</h4>
+                            <ul class="project-list">
+                                <li>comptage des ttantto et hamarreko</li>
+                                <li>conversion automatique des points</li>
+                                <li>détection de la victoire et animation visuelle</li>
+                                <li>personnalisation des noms des équipes </li>
+                                <li>sauvegarde automatique de la partie</li>
+                                <li>interface bilingue (basque / français)</li>
+                            </ul>
+                        </div>
 
-                    <div class="project-links">
-                        <a href="https://alfaro-b.github.io/mus-score-app/" target="_blank" rel="noopener noreferrer"
-                            class="small-link">
-                            Voir l’application
-                        </a>
+                        <div class="project-block">
+                            <h4>Interface</h4>
+                            <p class="project-note">
+                                Icône de l'application et capture de l'interface mobile
+                            </p>
+                            <div class="mus-media">
+                                <img src="assets/images/icon-mus.png" alt="Logo de Mus Score App" class="mus-icon" />
 
-                        <a href="https://github.com/alfaro-b/mus-score-app" target="_blank" rel="noopener noreferrer"
-                            class="small-link">
-                            Voir le code sur GitHub
-                        </a>
+                                <img src="assets/images/screenshot-mus.png" alt="Capture de l'application Mus Score App"
+                                    class="mus-mobile" />
+                            </div>
+                        </div>
+
+                        <div class="project-block">
+                            <h4>Ce que ce projet m’a permis de travailler</h4>
+                            <ul class="project-list">
+                                <li>développement d’une Progressive Web App (PWA)</li>
+                                <li>conception d'une interface mobile-first et responsive</li>
+                                <li>sauvegarde des données avec localStorage</li>
+                                <li>déploiement automatisé sur GitHub Pages</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://alfaro-b.github.io/mus-score-app/" target="_blank"
+                                rel="noopener noreferrer" class="small-link">
+                                Voir l’application
+                            </a>
+
+                            <a href="https://github.com/alfaro-b/mus-score-app" target="_blank"
+                                rel="noopener noreferrer" class="small-link">
+                                Voir le code sur GitHub
+                            </a>
+                        </div>
                     </div>
                 </article>
             </div>
